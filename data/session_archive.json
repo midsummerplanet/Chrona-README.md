@@ -1,0 +1,1356 @@
+{
+  "pending_tasks": [
+    {
+      "task_id": "task-08df75",
+      "title": "完成数电实验报告",
+      "description": "今晚二十三点前需要完成数字电路实验报告，需要比较安静的环境\n\nAI 推断说明：未提供时长，实验报告通常需要2小时，默认120分钟；'比较安静'推断quietness=0.75；deadline明确为今晚23:00；报告写作需专注，must_be_contiguous=true",
+      "series_id": null,
+      "duration_min": 120,
+      "deadline": "2026-05-23T23:00:00",
+      "earliest_start": "2026-05-23T20:53:00",
+      "required_environment": [
+        "desk"
+      ],
+      "required_quietness": 0.75,
+      "dependencies": [],
+      "status": "done",
+      "tags": [
+        "数电实验报告",
+        "学术",
+        "需专注"
+      ]
+    },
+    {
+      "task_id": "e1-85a984",
+      "title": "撰写物理实验E1报告",
+      "description": "完成大学物理实验E1的报告撰写，截止时间为明天（2026-05-24）18:00，逾期0分。预计耗时30-60分钟。\n\nAI 推断说明：用户明确截止时间为明天18:00；时长取中间值45分钟；报告撰写需一定专注度，设置quietness=0.6；环境默认desk；must_be_contiguous=true因为报告撰写需连续思考",
+      "series_id": null,
+      "duration_min": 45,
+      "deadline": "2026-05-24T18:00:00",
+      "earliest_start": "2026-05-23T20:54:00",
+      "required_environment": [
+        "desk"
+      ],
+      "required_quietness": 0.6,
+      "dependencies": [],
+      "status": "done",
+      "tags": [
+        "物理实验报告",
+        "学术",
+        "截止日期",
+        "紧急"
+      ]
+    },
+    {
+      "task_id": "task-b895e2",
+      "title": "完成高数作业",
+      "description": "今晚完成高数作业，约十道题，需要集中注意力\n\nAI 推断说明：用户说'今晚'，当前时间21:19，推断deadline为今晚结束23:59；未提供具体时长，十道高数题估计约120分钟；数学作业需要专注，设置must_be_contiguous=true；推断需要安静环境，quietness=0.65",
+      "series_id": null,
+      "duration_min": 120,
+      "deadline": "2026-05-23T23:59:00",
+      "earliest_start": "2026-05-23T21:19:00",
+      "required_environment": [
+        "desk"
+      ],
+      "required_quietness": 0.65,
+      "dependencies": [],
+      "status": "done",
+      "tags": [
+        "高数",
+        "作业",
+        "深度学习"
+      ]
+    },
+    {
+      "task_id": "task-82ce12",
+      "title": "完成物理作业",
+      "description": "在5月24日晚上7点前完成物理作业\n\nAI 推断说明：用户明确deadline为2026-05-24T19:00:00；未提供时长，默认按60分钟计算；未提供安静度要求，默认0.35；作业类型推断为可中断任务，must_be_contiguous=false",
+      "series_id": null,
+      "duration_min": 60,
+      "deadline": "2026-05-24T19:00:00",
+      "earliest_start": "2026-05-23T21:20:00",
+      "required_environment": [
+        "desk"
+      ],
+      "required_quietness": 0.35,
+      "dependencies": [],
+      "status": "done",
+      "tags": [
+        "物理作业",
+        "作业"
+      ]
+    },
+    {
+      "task_id": "task-66427d",
+      "title": "写数电实验报告",
+      "description": "今晚十一点前完成数电实验报告的撰写，时间紧迫。\n\nAI 推断说明：用户明确deadline为今晚23:00；未提供时长，实验报告通常需要1小时左右，默认60分钟；报告写作需要一定专注度，设置quietness=0.65；must_be_contiguous=true因为写作需要连续时间；环境默认desk。",
+      "series_id": null,
+      "duration_min": 60,
+      "deadline": "2026-05-24T23:45:00",
+      "earliest_start": "2026-05-24T12:00:00",
+      "required_environment": [
+        "desk"
+      ],
+      "required_quietness": 0.65,
+      "dependencies": [],
+      "status": "done",
+      "tags": [
+        "数电实验报告",
+        "紧急",
+        "deadline",
+        "深度工作"
+      ],
+      "deadline_overdue": false
+    },
+    {
+      "task_id": "task-578741",
+      "title": "写完大学物理作业",
+      "description": "今晚十二点前完成大学物理作业，时间紧迫\n\nAI 推断说明：未提供时长，默认按60分钟计算；'今晚十二点前'推断deadline为当天23:59；物理作业需要一定专注度，设置quietness=0.6；作业通常需要连续完成，设置must_be_contiguous=true",
+      "series_id": null,
+      "duration_min": 60,
+      "deadline": "2026-05-24T12:00:00",
+      "earliest_start": "2026-05-23T21:43:00",
+      "required_environment": [
+        "desk"
+      ],
+      "required_quietness": 0.6,
+      "dependencies": [],
+      "status": "done",
+      "tags": [
+        "大学物理",
+        "作业",
+        "紧急",
+        "需专注"
+      ]
+    },
+    {
+      "task_id": "task-d0721a",
+      "title": "完成高数作业",
+      "description": "今晚23:59之前完成高数作业，当前时间21:46，需在约2小时内完成\n\nAI 推断说明：用户明确截止时间23:59；未提供时长，根据剩余时间推断约2小时（120分钟）；高数作业需一定专注，设置quietness=0.6；作业通常需连续完成，设置must_be_contiguous=true",
+      "series_id": null,
+      "duration_min": 120,
+      "deadline": "2026-05-25T23:30:00",
+      "earliest_start": "2026-05-25T09:00:00",
+      "required_environment": [
+        "desk",
+        "meeting_room"
+      ],
+      "required_quietness": 0.6,
+      "dependencies": [],
+      "status": "done",
+      "tags": [
+        "高数",
+        "作业",
+        "紧急"
+      ],
+      "deadline_overdue": false
+    },
+    {
+      "task_id": "task-f3005d",
+      "title": "出去跑步",
+      "description": "今晚十一点前要出去跑步，户外运动\n\nAI 推断说明：用户明确deadline为今晚十一点（23:00）；未提供时长，默认30分钟；跑步为户外活动，环境设为mobile；运动不需要安静，quietness设为0.2；跑步可中断，must_be_contiguous设为false",
+      "series_id": null,
+      "duration_min": 30,
+      "deadline": "2026-05-24T23:00:00",
+      "earliest_start": "2026-05-24T22:00:00",
+      "required_environment": [
+        "mobile"
+      ],
+      "required_quietness": 0.0,
+      "dependencies": [],
+      "status": "pending",
+      "tags": [
+        "跑步",
+        "运动",
+        "户外"
+      ],
+      "deadline_overdue": false,
+      "manual_start": "2026-05-24T22:00:00",
+      "manual_end": "2026-05-24T22:30:00",
+      "deadline_type": "flexible"
+    },
+    {
+      "task_id": "task-b35619",
+      "title": "完成高数作业",
+      "description": "完成高数第十章习题1-8，预计20分钟\n\nAI 推断说明：用户明确时长20分钟；用户说'今晚'，当前时间22:09，推断deadline为今晚结束23:59；作业类型为数学练习，推断可中断，must_be_contiguous=false；未指定安静度，默认0.35；环境默认desk",
+      "series_id": null,
+      "duration_min": 20,
+      "deadline": "2026-05-23T23:59:00",
+      "earliest_start": "2026-05-23T22:09:00",
+      "required_environment": [
+        "desk"
+      ],
+      "required_quietness": 0.35,
+      "dependencies": [],
+      "status": "done",
+      "tags": [
+        "高数",
+        "作业",
+        "习题"
+      ]
+    },
+    {
+      "task_id": "task-7801ef",
+      "title": "写英语作文",
+      "description": "完成一篇英语议论文，今晚十一点前提交\n\nAI 推断说明：用户明确时长20分钟；deadline为今晚23:00；写作任务推断需要中等安静环境；短时写作可中断，must_be_contiguous设为false",
+      "series_id": null,
+      "duration_min": 20,
+      "deadline": "2026-05-24T23:00:00",
+      "earliest_start": "2026-05-24T09:18:00",
+      "required_environment": [
+        "desk"
+      ],
+      "required_quietness": 0.65,
+      "dependencies": [],
+      "status": "done",
+      "tags": [
+        "英语作文",
+        "议论文",
+        "写作",
+        "截止日期明确"
+      ]
+    },
+    {
+      "task_id": "kv-cache-3d0f39",
+      "title": "学习KV Cache",
+      "description": "今晚学习深度学习中的KV Cache，时长一小时\n\nAI 推断说明：用户明确时长60分钟；'今晚'推断deadline为当天结束；深度学习任务推断需要中等安静环境(0.65)和连续时间；未指定环境，默认desk",
+      "series_id": null,
+      "duration_min": 60,
+      "deadline": "2026-05-24T23:59:00",
+      "earliest_start": "2026-05-24T18:00:00",
+      "required_environment": [
+        "desk"
+      ],
+      "required_quietness": 0.65,
+      "dependencies": [],
+      "status": "pending",
+      "tags": [
+        "深度学习",
+        "kv-cache",
+        "学习"
+      ],
+      "deadline_overdue": false,
+      "manual_start": "2026-05-24T18:00:00",
+      "manual_end": "2026-05-24T19:00:00",
+      "deadline_type": "flexible"
+    },
+    {
+      "task_id": "task-c9280f",
+      "title": "做数电实验",
+      "description": "关于JK触发器的实验，包括仿真、接线、写报告等完整实验流程\n\nAI 推断说明：用户明确说'一下午'，推断时长为240分钟；用户补充信息明确deadline_type为strict；实验通常需要实验室环境，但allowed_environment_options中没有lab，故使用desk作为近似；实验操作需要一定专注度，设置quietness=0.65；deadline按明天（2026-05-25）结束设置，因为用户说'明天'且未指定具体时间",
+      "series_id": null,
+      "duration_min": 240,
+      "deadline": "2026-05-25T23:59:00",
+      "deadline_type": "strict",
+      "earliest_start": "2026-05-25T14:30:00",
+      "manual_start": "2026-05-25T14:30:00",
+      "manual_end": "2026-05-25T18:30:00",
+      "required_environment": [
+        "classroom"
+      ],
+      "required_quietness": 0.65,
+      "dependencies": [],
+      "status": "pending",
+      "tags": [
+        "数电实验",
+        "jk触发器",
+        "实验操作",
+        "strict-deadline"
+      ],
+      "deadline_overdue": false
+    },
+    {
+      "task_id": "task-ceb485",
+      "title": "团课会议",
+      "description": "明早8点到10点参加团课会议\n\nAI 推断说明：用户明确说'明早八点到十点'，推断为固定时间窗口任务，设置fixed_start和fixed_end；会议通常不要求极度安静，默认quietness=0.35；会议可中断，must_be_contiguous=false；deadline为会议结束时间，deadline_type为strict",
+      "series_id": null,
+      "duration_min": 120,
+      "deadline": "2026-05-25T10:00:00",
+      "deadline_type": "strict",
+      "earliest_start": "2026-05-25T08:00:00",
+      "manual_start": "2026-05-25T08:00:00",
+      "manual_end": "2026-05-25T10:00:00",
+      "required_environment": [
+        "meeting_room"
+      ],
+      "required_quietness": 0.35,
+      "dependencies": [],
+      "must_be_contiguous": false,
+      "status": "pending",
+      "tags": [
+        "会议",
+        "团课"
+      ],
+      "deadline_overdue": false
+    },
+    {
+      "task_id": "task-e80cd9",
+      "title": "写思政课论文",
+      "description": "完成思政课论文作业，预计需要两小时，用户设定为灵活截止时间\n\nAI 推断说明：用户明确时长2小时(120分钟)；论文写作约2/3为深度工作→deep_work_min=80；deadline_type用户指定为flexible；未指定具体环境，默认desk；quietness基于写作任务推断为0.65；deadline按'今晚'设为当天23:59",
+      "series_id": null,
+      "duration_min": 120,
+      "deadline": "2026-05-24T23:59:00",
+      "deadline_type": "flexible",
+      "earliest_start": "2026-05-24T12:41:00",
+      "manual_start": null,
+      "manual_end": null,
+      "required_environment": [
+        "desk"
+      ],
+      "required_quietness": 0.65,
+      "dependencies": [],
+      "must_be_contiguous": true,
+      "deep_work_min": 80,
+      "status": "pending",
+      "tags": [
+        "思政课",
+        "论文",
+        "写作"
+      ],
+      "deadline_overdue": false
+    },
+    {
+      "task_id": "moe-3f4662",
+      "title": "学习MoE架构",
+      "description": "通过阅读DeepSeek论文了解MoE架构，大概30分钟\n\nAI 推断说明：用户明确时长30分钟；阅读论文需要一定专注，deep_work_min设为25分钟；deadline为明天结束，flexible；环境默认desk，安静度0.65",
+      "series_id": null,
+      "duration_min": 30,
+      "deadline": "2026-05-25T23:59:00",
+      "deadline_type": "flexible",
+      "earliest_start": "2026-05-24T12:57:00",
+      "manual_start": null,
+      "manual_end": null,
+      "required_environment": [
+        "desk"
+      ],
+      "required_quietness": 0.65,
+      "dependencies": [],
+      "must_be_contiguous": true,
+      "deep_work_min": 25,
+      "status": "pending",
+      "tags": [
+        "moe",
+        "论文阅读",
+        "深度学习"
+      ],
+      "deadline_overdue": false
+    },
+    {
+      "task_id": "task-85f466",
+      "title": "写思政课论文",
+      "description": "用户要求将思政课论文的截止时间往后推一个小时。原deadline为2026-05-24T23:59:00，现更新为2026-05-25T00:59:00。\n\nAI 推断说明：用户明确要求将现有任务'写思政课论文'的deadline推迟1小时；原deadline为2026-05-24T23:59:00，新deadline为2026-05-25T00:59:00；未提供时长，默认30分钟；deadline_type保持原flexible；其他字段沿用原任务默认值。",
+      "series_id": null,
+      "duration_min": 30,
+      "deadline": "2026-05-25T00:59:00",
+      "deadline_type": "flexible",
+      "earliest_start": "2026-05-24T15:34:00",
+      "manual_start": null,
+      "manual_end": null,
+      "required_environment": [
+        "desk"
+      ],
+      "required_quietness": 0.35,
+      "dependencies": [],
+      "must_be_contiguous": false,
+      "deep_work_min": 0,
+      "status": "pending",
+      "tags": [
+        "思政课论文",
+        "调整截止时间"
+      ],
+      "deadline_overdue": false
+    }
+  ],
+  "operation_history": [
+    {
+      "operation": "task_added",
+      "task_id": "task-08df75",
+      "title": "完成数电实验报告",
+      "detail": "duration_min=120",
+      "created_at": "2026-05-23T20:53:24"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=1, unscheduled=0",
+      "created_at": "2026-05-23T20:53:28"
+    },
+    {
+      "operation": "task_added",
+      "task_id": "e1-85a984",
+      "title": "撰写物理实验E1报告",
+      "detail": "duration_min=45",
+      "created_at": "2026-05-23T20:54:53"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=2, unscheduled=0",
+      "created_at": "2026-05-23T20:55:02"
+    },
+    {
+      "operation": "task_status_changed",
+      "task_id": "task-08df75",
+      "title": "完成数电实验报告",
+      "detail": "pending->done",
+      "created_at": "2026-05-23T21:13:28"
+    },
+    {
+      "operation": "task_status_changed",
+      "task_id": "e1-85a984",
+      "title": "撰写物理实验E1报告",
+      "detail": "pending->done",
+      "created_at": "2026-05-23T21:13:31"
+    },
+    {
+      "operation": "task_added",
+      "task_id": "task-b895e2",
+      "title": "完成高数作业",
+      "detail": "duration_min=120",
+      "created_at": "2026-05-23T21:19:46"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=0, unscheduled=1",
+      "created_at": "2026-05-23T21:19:51"
+    },
+    {
+      "operation": "task_added",
+      "task_id": "task-82ce12",
+      "title": "完成物理作业",
+      "detail": "duration_min=60",
+      "created_at": "2026-05-23T21:20:29"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=1, unscheduled=1",
+      "created_at": "2026-05-23T21:20:37"
+    },
+    {
+      "operation": "task_status_changed",
+      "task_id": "task-b895e2",
+      "title": "完成高数作业",
+      "detail": "pending->done",
+      "created_at": "2026-05-23T21:41:32"
+    },
+    {
+      "operation": "task_status_changed",
+      "task_id": "task-82ce12",
+      "title": "完成物理作业",
+      "detail": "pending->done",
+      "created_at": "2026-05-23T21:41:33"
+    },
+    {
+      "operation": "task_added",
+      "task_id": "task-66427d",
+      "title": "写数电实验报告",
+      "detail": "duration_min=60",
+      "created_at": "2026-05-23T21:42:22"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=0, unscheduled=1",
+      "created_at": "2026-05-23T21:42:26"
+    },
+    {
+      "operation": "task_added",
+      "task_id": "task-578741",
+      "title": "写完大学物理作业",
+      "detail": "duration_min=60",
+      "created_at": "2026-05-23T21:43:15"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=1, unscheduled=1",
+      "created_at": "2026-05-23T21:43:23"
+    },
+    {
+      "operation": "task_added",
+      "task_id": "task-d0721a",
+      "title": "完成高数作业",
+      "detail": "duration_min=120",
+      "created_at": "2026-05-23T21:46:56"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=1, unscheduled=2",
+      "created_at": "2026-05-23T21:47:09"
+    },
+    {
+      "operation": "task_added",
+      "task_id": "task-f3005d",
+      "title": "出去跑步",
+      "detail": "duration_min=30",
+      "created_at": "2026-05-23T21:47:54"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=1, unscheduled=3",
+      "created_at": "2026-05-23T21:48:12"
+    },
+    {
+      "operation": "task_added",
+      "task_id": "task-b35619",
+      "title": "完成高数作业",
+      "detail": "duration_min=20",
+      "created_at": "2026-05-23T22:09:27"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=1, unscheduled=4",
+      "created_at": "2026-05-23T22:09:48"
+    },
+    {
+      "operation": "task_missed",
+      "task_id": "task-66427d",
+      "title": "写数电实验报告",
+      "detail": "deadline passed",
+      "created_at": "2026-05-24T09:16:22"
+    },
+    {
+      "operation": "task_missed",
+      "task_id": "task-d0721a",
+      "title": "完成高数作业",
+      "detail": "deadline passed",
+      "created_at": "2026-05-24T09:16:22"
+    },
+    {
+      "operation": "task_missed",
+      "task_id": "task-f3005d",
+      "title": "出去跑步",
+      "detail": "deadline passed",
+      "created_at": "2026-05-24T09:16:22"
+    },
+    {
+      "operation": "task_missed",
+      "task_id": "task-b35619",
+      "title": "完成高数作业",
+      "detail": "deadline passed",
+      "created_at": "2026-05-24T09:16:22"
+    },
+    {
+      "operation": "task_added",
+      "task_id": "task-7801ef",
+      "title": "写英语作文",
+      "detail": "duration_min=20",
+      "created_at": "2026-05-24T09:18:02"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=2, unscheduled=0",
+      "created_at": "2026-05-24T09:18:10"
+    },
+    {
+      "operation": "task_status_changed",
+      "task_id": "task-578741",
+      "title": "写完大学物理作业",
+      "detail": "pending->done",
+      "created_at": "2026-05-24T09:18:39"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=1, unscheduled=0",
+      "created_at": "2026-05-24T09:18:43"
+    },
+    {
+      "operation": "task_status_changed",
+      "task_id": "task-b35619",
+      "title": "完成高数作业",
+      "detail": "missed->done",
+      "created_at": "2026-05-24T09:18:59"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=1, unscheduled=0",
+      "created_at": "2026-05-24T09:19:05"
+    },
+    {
+      "operation": "task_status_changed",
+      "task_id": "task-7801ef",
+      "title": "写英语作文",
+      "detail": "pending->done",
+      "created_at": "2026-05-24T09:48:43"
+    },
+    {
+      "operation": "task_added",
+      "task_id": "kv-cache-3d0f39",
+      "title": "学习KV Cache",
+      "detail": "duration_min=60",
+      "created_at": "2026-05-24T09:50:58"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=1, unscheduled=0",
+      "created_at": "2026-05-24T09:51:03"
+    },
+    {
+      "operation": "task_manual_edited",
+      "task_id": "task-f3005d",
+      "title": "出去跑步",
+      "detail": "manual=2026-05-24 15:00-15:30",
+      "created_at": "2026-05-24T09:57:32"
+    },
+    {
+      "operation": "task_manual_edited",
+      "task_id": "task-66427d",
+      "title": "写数电实验报告",
+      "detail": "manual=2026-05-24 12:00-13:00",
+      "created_at": "2026-05-24T09:57:52"
+    },
+    {
+      "operation": "task_manual_edited",
+      "task_id": "task-d0721a",
+      "title": "完成高数作业",
+      "detail": "manual=2026-05-25 06:00-08:00",
+      "created_at": "2026-05-24T09:58:23"
+    },
+    {
+      "operation": "task_manual_edited",
+      "task_id": "kv-cache-3d0f39",
+      "title": "学习KV Cache",
+      "detail": "manual=2026-05-24 12:30-13:30",
+      "created_at": "2026-05-24T09:59:12"
+    },
+    {
+      "operation": "task_manual_edited",
+      "task_id": "task-d0721a",
+      "title": "完成高数作业",
+      "detail": "manual=2026-05-25 09:00-11:00",
+      "created_at": "2026-05-24T10:11:11"
+    },
+    {
+      "operation": "task_status_changed",
+      "task_id": "task-d0721a",
+      "title": "完成高数作业",
+      "detail": "pending->done",
+      "created_at": "2026-05-24T10:24:44"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=2, unscheduled=1",
+      "created_at": "2026-05-24T10:26:04"
+    },
+    {
+      "operation": "task_manual_edited",
+      "task_id": "kv-cache-3d0f39",
+      "title": "学习KV Cache",
+      "detail": "manual=2026-05-24 13:00-14:00",
+      "created_at": "2026-05-24T10:27:17"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=3, unscheduled=0",
+      "created_at": "2026-05-24T10:27:43"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=3, unscheduled=0",
+      "created_at": "2026-05-24T11:11:59"
+    },
+    {
+      "operation": "task_added",
+      "task_id": "task-c9280f",
+      "title": "做数电实验",
+      "detail": "duration_min=240",
+      "created_at": "2026-05-24T11:16:26"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=3, unscheduled=1",
+      "created_at": "2026-05-24T11:16:48"
+    },
+    {
+      "operation": "task_manual_edited",
+      "task_id": "task-c9280f",
+      "title": "做数电实验",
+      "detail": "manual=2026-05-25 14:30-18:30",
+      "created_at": "2026-05-24T11:18:42"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=3, unscheduled=1",
+      "created_at": "2026-05-24T11:19:05"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=4, unscheduled=0",
+      "created_at": "2026-05-24T11:21:01"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=4, unscheduled=0",
+      "created_at": "2026-05-24T11:51:40"
+    },
+    {
+      "operation": "task_added",
+      "task_id": "task-ceb485",
+      "title": "团课会议",
+      "detail": "duration_min=120",
+      "created_at": "2026-05-24T12:05:39"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=5, unscheduled=0",
+      "created_at": "2026-05-24T12:06:07"
+    },
+    {
+      "operation": "task_added",
+      "task_id": "task-e80cd9",
+      "title": "写思政课论文",
+      "detail": "duration_min=120",
+      "created_at": "2026-05-24T12:41:55"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=5, unscheduled=1",
+      "created_at": "2026-05-24T12:42:29"
+    },
+    {
+      "operation": "task_manual_edited",
+      "task_id": "task-f3005d",
+      "title": "出去跑步",
+      "detail": "manual=2026-05-24 22:00-22:30",
+      "created_at": "2026-05-24T12:43:36"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=6, unscheduled=0",
+      "created_at": "2026-05-24T12:44:10"
+    },
+    {
+      "operation": "task_added",
+      "task_id": "moe-3f4662",
+      "title": "学习MoE架构",
+      "detail": "duration_min=30",
+      "created_at": "2026-05-24T12:57:10"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=6, unscheduled=0",
+      "created_at": "2026-05-24T12:57:52"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=6, unscheduled=0",
+      "created_at": "2026-05-24T13:00:17"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=6, unscheduled=0",
+      "created_at": "2026-05-24T13:03:55"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=6, unscheduled=1",
+      "created_at": "2026-05-24T13:17:43"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=6, unscheduled=1",
+      "created_at": "2026-05-24T13:17:45"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=6, unscheduled=1",
+      "created_at": "2026-05-24T13:18:00"
+    },
+    {
+      "operation": "task_manual_edited",
+      "task_id": "kv-cache-3d0f39",
+      "title": "学习KV Cache",
+      "detail": "manual=2026-05-24 18:00-19:00",
+      "created_at": "2026-05-24T13:18:26"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=6, unscheduled=0",
+      "created_at": "2026-05-24T13:19:09"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=6, unscheduled=0",
+      "created_at": "2026-05-24T13:29:11"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=7, unscheduled=0",
+      "created_at": "2026-05-24T13:29:13"
+    },
+    {
+      "operation": "task_status_changed",
+      "task_id": "task-66427d",
+      "title": "写数电实验报告",
+      "detail": "pending->done",
+      "created_at": "2026-05-24T13:40:12"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=5, unscheduled=0",
+      "created_at": "2026-05-24T13:41:20"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=6, unscheduled=0",
+      "created_at": "2026-05-24T13:41:21"
+    },
+    {
+      "operation": "task_added",
+      "task_id": "task-85f466",
+      "title": "写思政课论文",
+      "detail": "duration_min=30",
+      "created_at": "2026-05-24T15:34:16"
+    },
+    {
+      "operation": "schedule_updated",
+      "task_id": "",
+      "title": "",
+      "detail": "scheduled=6, unscheduled=0",
+      "created_at": "2026-05-24T15:34:59"
+    }
+  ],
+  "last_scores": {
+    "task-f3005d": {
+      "task_id": "task-f3005d",
+      "urgency": 0.3833333333333333,
+      "complexity": 0.1,
+      "cognitive_load": 0.1,
+      "block_integrity": 0.1,
+      "quietness_need": 0.1,
+      "confidence": 0.8254765913201495,
+      "rationale": "ensemble average; confidence penalized by vote dispersion",
+      "environment_dependency": 0.3,
+      "agent_votes": [
+        {
+          "task_id": "task-f3005d",
+          "scores": {
+            "urgency": 0.35,
+            "complexity": 0.1,
+            "cognitive_load": 0.1,
+            "block_integrity": 0.1,
+            "environment_dependency": 0.3,
+            "quietness_need": 0.1
+          },
+          "confidence": 0.85,
+          "rationale": "低认知运动任务，截止今晚"
+        },
+        {
+          "task_id": "task-f3005d",
+          "scores": {
+            "urgency": 0.35,
+            "complexity": 0.1,
+            "cognitive_load": 0.1,
+            "block_integrity": 0.1,
+            "environment_dependency": 0.3,
+            "quietness_need": 0.1
+          },
+          "confidence": 0.8,
+          "rationale": "低认知运动任务，截止今晚"
+        },
+        {
+          "task_id": "task-f3005d",
+          "scores": {
+            "urgency": 0.45,
+            "complexity": 0.1,
+            "cognitive_load": 0.1,
+            "block_integrity": 0.1,
+            "environment_dependency": 0.3,
+            "quietness_need": 0.1
+          },
+          "confidence": 0.85,
+          "rationale": "低认知运动任务，截止今晚"
+        }
+      ]
+    },
+    "kv-cache-3d0f39": {
+      "task_id": "kv-cache-3d0f39",
+      "urgency": 0.35,
+      "complexity": 0.6666666666666666,
+      "cognitive_load": 0.6833333333333333,
+      "block_integrity": 0.6666666666666666,
+      "quietness_need": 0.65,
+      "confidence": 0.7548815536468909,
+      "rationale": "ensemble average; confidence penalized by vote dispersion",
+      "environment_dependency": 0.3,
+      "agent_votes": [
+        {
+          "task_id": "kv-cache-3d0f39",
+          "scores": {
+            "urgency": 0.35,
+            "complexity": 0.7,
+            "cognitive_load": 0.7,
+            "block_integrity": 0.7,
+            "environment_dependency": 0.3,
+            "quietness_need": 0.65
+          },
+          "confidence": 0.8,
+          "rationale": "学习任务，需整块时间"
+        },
+        {
+          "task_id": "kv-cache-3d0f39",
+          "scores": {
+            "urgency": 0.35,
+            "complexity": 0.65,
+            "cognitive_load": 0.7,
+            "block_integrity": 0.65,
+            "environment_dependency": 0.3,
+            "quietness_need": 0.65
+          },
+          "confidence": 0.75,
+          "rationale": "学习任务，今晚截止，需专注"
+        },
+        {
+          "task_id": "kv-cache-3d0f39",
+          "scores": {
+            "urgency": 0.35,
+            "complexity": 0.65,
+            "cognitive_load": 0.65,
+            "block_integrity": 0.65,
+            "environment_dependency": 0.3,
+            "quietness_need": 0.65
+          },
+          "confidence": 0.75,
+          "rationale": "今晚截止，深度学习需专注"
+        }
+      ]
+    },
+    "task-c9280f": {
+      "task_id": "task-c9280f",
+      "urgency": 0.8166666666666667,
+      "complexity": 0.65,
+      "cognitive_load": 0.7,
+      "block_integrity": 0.8333333333333334,
+      "quietness_need": 0.6666666666666666,
+      "confidence": 0.7676198493069656,
+      "rationale": "ensemble average; confidence penalized by vote dispersion",
+      "environment_dependency": 0.7,
+      "agent_votes": [
+        {
+          "task_id": "task-c9280f",
+          "scores": {
+            "urgency": 0.85,
+            "complexity": 0.65,
+            "cognitive_load": 0.7,
+            "block_integrity": 0.85,
+            "environment_dependency": 0.7,
+            "quietness_need": 0.7
+          },
+          "confidence": 0.8,
+          "rationale": "紧迫型：明天截止，实验需整块时间"
+        },
+        {
+          "task_id": "task-c9280f",
+          "scores": {
+            "urgency": 0.75,
+            "complexity": 0.65,
+            "cognitive_load": 0.7,
+            "block_integrity": 0.85,
+            "environment_dependency": 0.7,
+            "quietness_need": 0.65
+          },
+          "confidence": 0.8,
+          "rationale": "紧迫型：明天截止，需整块时间"
+        },
+        {
+          "task_id": "task-c9280f",
+          "scores": {
+            "urgency": 0.85,
+            "complexity": 0.65,
+            "cognitive_load": 0.7,
+            "block_integrity": 0.8,
+            "environment_dependency": 0.7,
+            "quietness_need": 0.65
+          },
+          "confidence": 0.75,
+          "rationale": "紧迫型：明天截止，需整块时间"
+        }
+      ]
+    },
+    "task-ceb485": {
+      "task_id": "task-ceb485",
+      "urgency": 0.48333333333333334,
+      "complexity": 0.31666666666666665,
+      "cognitive_load": 0.36666666666666664,
+      "block_integrity": 0.3,
+      "quietness_need": 0.35,
+      "confidence": 0.7185730319472645,
+      "rationale": "ensemble average; confidence penalized by vote dispersion",
+      "environment_dependency": 0.5666666666666667,
+      "agent_votes": [
+        {
+          "task_id": "task-ceb485",
+          "scores": {
+            "urgency": 0.55,
+            "complexity": 0.35,
+            "cognitive_load": 0.4,
+            "block_integrity": 0.3,
+            "environment_dependency": 0.6,
+            "quietness_need": 0.35
+          },
+          "confidence": 0.75,
+          "rationale": "会议任务，明早截止，中等紧迫"
+        },
+        {
+          "task_id": "task-ceb485",
+          "scores": {
+            "urgency": 0.55,
+            "complexity": 0.3,
+            "cognitive_load": 0.35,
+            "block_integrity": 0.3,
+            "environment_dependency": 0.6,
+            "quietness_need": 0.35
+          },
+          "confidence": 0.75,
+          "rationale": "会议任务，明早截止，环境依赖中等"
+        },
+        {
+          "task_id": "task-ceb485",
+          "scores": {
+            "urgency": 0.35,
+            "complexity": 0.3,
+            "cognitive_load": 0.35,
+            "block_integrity": 0.3,
+            "environment_dependency": 0.5,
+            "quietness_need": 0.35
+          },
+          "confidence": 0.75,
+          "rationale": "会议任务，明早截止，中等紧迫"
+        }
+      ]
+    },
+    "task-e80cd9": {
+      "task_id": "task-e80cd9",
+      "urgency": 0.35,
+      "complexity": 0.6,
+      "cognitive_load": 0.6833333333333333,
+      "block_integrity": 0.75,
+      "quietness_need": 0.65,
+      "confidence": 0.7314107488058265,
+      "rationale": "ensemble average; confidence penalized by vote dispersion",
+      "environment_dependency": 0.3333333333333333,
+      "agent_votes": [
+        {
+          "task_id": "task-e80cd9",
+          "scores": {
+            "urgency": 0.35,
+            "complexity": 0.65,
+            "cognitive_load": 0.7,
+            "block_integrity": 0.75,
+            "environment_dependency": 0.3,
+            "quietness_need": 0.65
+          },
+          "confidence": 0.75,
+          "rationale": "论文写作，需整块时间"
+        },
+        {
+          "task_id": "task-e80cd9",
+          "scores": {
+            "urgency": 0.35,
+            "complexity": 0.6,
+            "cognitive_load": 0.7,
+            "block_integrity": 0.75,
+            "environment_dependency": 0.4,
+            "quietness_need": 0.65
+          },
+          "confidence": 0.75,
+          "rationale": "写作任务需整块时间，截止今晚"
+        },
+        {
+          "task_id": "task-e80cd9",
+          "scores": {
+            "urgency": 0.35,
+            "complexity": 0.55,
+            "cognitive_load": 0.65,
+            "block_integrity": 0.75,
+            "environment_dependency": 0.3,
+            "quietness_need": 0.65
+          },
+          "confidence": 0.75,
+          "rationale": "论文写作需整块时间，截止今晚"
+        }
+      ]
+    },
+    "moe-3f4662": {
+      "task_id": "moe-3f4662",
+      "urgency": 0.35,
+      "complexity": 0.65,
+      "cognitive_load": 0.6666666666666666,
+      "block_integrity": 0.65,
+      "quietness_need": 0.65,
+      "confidence": 0.7892674908190104,
+      "rationale": "ensemble average; confidence penalized by vote dispersion",
+      "environment_dependency": 0.3,
+      "agent_votes": [
+        {
+          "task_id": "moe-3f4662",
+          "scores": {
+            "urgency": 0.35,
+            "complexity": 0.65,
+            "cognitive_load": 0.65,
+            "block_integrity": 0.7,
+            "environment_dependency": 0.3,
+            "quietness_need": 0.65
+          },
+          "confidence": 0.8,
+          "rationale": "论文阅读需专注，截止明天"
+        },
+        {
+          "task_id": "moe-3f4662",
+          "scores": {
+            "urgency": 0.35,
+            "complexity": 0.65,
+            "cognitive_load": 0.7,
+            "block_integrity": 0.65,
+            "environment_dependency": 0.3,
+            "quietness_need": 0.65
+          },
+          "confidence": 0.8,
+          "rationale": "论文阅读需专注，deadline明天"
+        },
+        {
+          "task_id": "moe-3f4662",
+          "scores": {
+            "urgency": 0.35,
+            "complexity": 0.65,
+            "cognitive_load": 0.65,
+            "block_integrity": 0.6,
+            "environment_dependency": 0.3,
+            "quietness_need": 0.65
+          },
+          "confidence": 0.8,
+          "rationale": "中等复杂度论文阅读，需专注"
+        }
+      ]
+    },
+    "task-85f466": {
+      "task_id": "task-85f466",
+      "urgency": 0.31666666666666665,
+      "complexity": 0.48333333333333334,
+      "cognitive_load": 0.43333333333333335,
+      "block_integrity": 0.3,
+      "quietness_need": 0.35,
+      "confidence": 0.6842865159736322,
+      "rationale": "ensemble average; confidence penalized by vote dispersion",
+      "environment_dependency": 0.5,
+      "agent_votes": [
+        {
+          "task_id": "task-85f466",
+          "scores": {
+            "urgency": 0.35,
+            "complexity": 0.45,
+            "cognitive_load": 0.4,
+            "block_integrity": 0.3,
+            "environment_dependency": 0.5,
+            "quietness_need": 0.35
+          },
+          "confidence": 0.7,
+          "rationale": "截止时间较远，常规论文任务"
+        },
+        {
+          "task_id": "task-85f466",
+          "scores": {
+            "urgency": 0.25,
+            "complexity": 0.5,
+            "cognitive_load": 0.45,
+            "block_integrity": 0.3,
+            "environment_dependency": 0.5,
+            "quietness_need": 0.35
+          },
+          "confidence": 0.7,
+          "rationale": "截止时间灵活，论文需一定认知投入"
+        },
+        {
+          "task_id": "task-85f466",
+          "scores": {
+            "urgency": 0.35,
+            "complexity": 0.5,
+            "cognitive_load": 0.45,
+            "block_integrity": 0.3,
+            "environment_dependency": 0.5,
+            "quietness_need": 0.35
+          },
+          "confidence": 0.7,
+          "rationale": "截止时间较远，常规论文任务"
+        }
+      ]
+    }
+  },
+  "last_result": {
+    "blocks": [
+      {
+        "task_id": "task-e80cd9",
+        "title": "写思政课论文",
+        "start": "2026-05-24T15:45:00",
+        "end": "2026-05-24T17:45:00",
+        "priority": 5.107075553536683,
+        "reason": "CP-SAT全局排程；精力=0.62, 安静度=0.95, 认知差=0.06, 安静缺口=0.00, 延迟小时=0.00, 槽成本=-3.23"
+      },
+      {
+        "task_id": "task-f3005d",
+        "title": "出去跑步",
+        "start": "2026-05-24T22:00:00",
+        "end": "2026-05-24T22:30:00",
+        "priority": 2.5878691137886687,
+        "reason": "CP-SAT全局排程；精力=0.42, 安静度=0.45, 认知差=0.32, 安静缺口=0.00, 延迟小时=0.00, 槽成本=-0.99"
+      },
+      {
+        "task_id": "task-85f466",
+        "title": "写思政课论文",
+        "start": "2026-05-24T23:00:00",
+        "end": "2026-05-24T23:30:00",
+        "priority": 3.4790266949626076,
+        "reason": "CP-SAT全局排程；精力=0.42, 安静度=0.45, 认知差=0.01, 安静缺口=0.00, 延迟小时=0.00, 槽成本=-2.00"
+      },
+      {
+        "task_id": "task-ceb485",
+        "title": "团课会议",
+        "start": "2026-05-25T08:00:00",
+        "end": "2026-05-25T10:00:00",
+        "priority": 4.118022283917782,
+        "reason": "CP-SAT全局排程；精力=0.88, 安静度=0.45, 认知差=0.51, 安静缺口=0.00, 延迟小时=0.00, 槽成本=-0.77"
+      },
+      {
+        "task_id": "moe-3f4662",
+        "title": "学习MoE架构",
+        "start": "2026-05-25T10:15:00",
+        "end": "2026-05-25T10:45:00",
+        "priority": 5.266387332489846,
+        "reason": "CP-SAT全局排程；精力=0.88, 安静度=0.95, 认知差=0.21, 安静缺口=0.00, 延迟小时=0.00, 槽成本=-3.63"
+      },
+      {
+        "task_id": "task-c9280f",
+        "title": "做数电实验",
+        "start": "2026-05-25T14:30:00",
+        "end": "2026-05-25T18:30:00",
+        "priority": 7.898808249368675,
+        "reason": "CP-SAT全局排程；精力=0.62, 安静度=0.95, 认知差=0.08, 安静缺口=0.00, 延迟小时=0.00, 槽成本=-7.08"
+      }
+    ],
+    "unscheduled_task_ids": [],
+    "total_cost": -19.397
+  },
+  "last_profile": {
+    "user_id": "streamlit_user",
+    "chronotype": "morning",
+    "energy_curve": {
+      "0": 0.42,
+      "1": 0.42,
+      "2": 0.42,
+      "3": 0.42,
+      "4": 0.42,
+      "5": 0.42,
+      "6": 0.42,
+      "7": 0.42,
+      "8": 0.88,
+      "9": 0.88,
+      "10": 0.88,
+      "11": 0.88,
+      "12": 0.42,
+      "13": 0.62,
+      "14": 0.62,
+      "15": 0.62,
+      "16": 0.62,
+      "17": 0.62,
+      "18": 0.42,
+      "19": 0.55,
+      "20": 0.55,
+      "21": 0.55,
+      "22": 0.42,
+      "23": 0.42
+    },
+    "available_windows": [
+      [
+        "06:00",
+        "23:45"
+      ]
+    ],
+    "quiet_windows": [
+      [
+        "09:00",
+        "11:30"
+      ],
+      [
+        "14:30",
+        "16:30"
+      ]
+    ],
+    "max_daily_deep_work_min": 300,
+    "preferred_environments": [
+      "desk",
+      "library"
+    ],
+    "weights": {
+      "lateness": 4.8,
+      "cognitive_fit": 2.4,
+      "context_switch": 2.3,
+      "fragmentation": 2.4,
+      "preference_match": 2.1
+    }
+  },
+  "last_run_at": "2026-05-24T15:34:00"
+}
